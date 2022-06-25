@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+   
+    color: white;
+}
+body{
+    color: #3b5450;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    font-size: 130%;   
+}
+
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    top: 285px;
+   
+}
+.container-fluid{
+    padding: 3% 17% 7%;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #344040;
+
+}
+.nav-item{
+    padding: 0 25px;
+    
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    color: #344040;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+.top-container{ 
+  /* background-color: #C4DDFF; */
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.subhead{
+    font-family: 'Sacramento', cursive;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+  
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    color: #344040;
+}
+h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    color: #344040;
+    font-weight: normal;
+    padding-bottom: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+ p{
+    line-height: 2;
+ }
+#about{
+    /* padding: 7% 15%; */
+    position: relative;
+    /* background-color: #fff; */
+    z-index: 1;
+    /* if we not used to z-index it can be work and it show on the top */
+    
+}
+hr{
+   
+   border: dotted #a0cdcd 12px;
+   border-bottom: none;
+   width: 5%;
+   margin: 62px auto ;
+}
+.horizontal{
+   height: 0;
+   border-style: dotted none none none;
+   
+   margin: 10% 48% 3%;
+   width: 4%;
+}
+.middle-container{
+    
+    margin: 100px 0;
+
+}
+.adjust{
+    padding-top: 24px;
+}
+
+.c{
+    margin-top: 4rem;
+    width: 240px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.skill-row{
+    width: 50%;
+    margin: 60px auto 100px auto;
+text-align: left;
+
+}
+.code-img{
+    width: 25%;
+
+    margin-right: 30px;
+}
+
+.photo{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-messages{
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+.bottom-container{
+    background-color:  #3aa7a7;
+    /* padding: 50px 0 20px; */
+    text-align: center;
+  padding: 2% 15%;
+   
+}
+
+.last{
+    color:#1a6568;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 4rem 25px;
+    
+}
+.last:hover{
+    color: #1c2424;
+}
+
+
+.footer{
+    color: rgb(70, 66, 66);
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Sacramento', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb,  #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb,  #2bc4ad);
+    text-decoration: none;
+  }
+  
